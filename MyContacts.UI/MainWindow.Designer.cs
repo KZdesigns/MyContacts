@@ -125,6 +125,7 @@
             this.buttonAddContact.TabIndex = 10;
             this.buttonAddContact.Text = "Add Contact";
             this.buttonAddContact.UseVisualStyleBackColor = true;
+            this.buttonAddContact.Click += new System.EventHandler(this.buttonAddContact_Click);
             // 
             // menuStrip1
             // 
